@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clientes Cadastrados</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Clientes Cadastrados</h1>
+    <ul>
+      {% for cliente in clientes %}
+        <li>
+          <span class="info">
+            {{ cliente[1] }} | {{ cliente[2] }} | {{ cliente[3] }} | {{ cliente[4] }} | {{ cliente[5] }}
+          </span>
+          <div class="action-buttons">
+            <a href="/editar/{{ cliente[0] }}">Editar</a>
+            <form action="/excluir/{{ cliente[0] }}" method="POST" onsubmit="return confirm('Confirma exclusão?');">
+              <button type="submit">Excluir</button>
+            </form>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+    <p class="center-link"><a href="/">Voltar ao cadastro</a></p>
+  </div>
+</body>
+</html>
