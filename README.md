@@ -1,6 +1,3 @@
-### ✅ `README.md` (versão final aprimorada):
-
-
 # 🧾 Sistema Web de Cadastro de Clientes com Python, Flask e MySQL
 
 Projeto desenvolvido por **Paulo César**, estudante de Sistemas de Informação, com foco em soluções práticas e integradas de desenvolvimento web.  
