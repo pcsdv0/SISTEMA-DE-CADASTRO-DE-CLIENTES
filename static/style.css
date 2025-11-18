@@ -1,4 +1,4 @@
-/* Global */
+
 * { box-sizing: border-box; }
 body {
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
@@ -12,7 +12,7 @@ body {
 }
 a { text-decoration: none; }
 
-/* Container */
+
 .container {
   background: #fff;
   padding: 24px;
@@ -20,14 +20,14 @@ a { text-decoration: none; }
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-/* Headings */
+
 h1 {
   text-align: center;
   color: #2c3e50;
   margin-bottom: 24px;
 }
 
-/* Forms */
+
 form label {
   display: block;
   margin-bottom: 6px;
@@ -54,7 +54,7 @@ button {
 }
 button:hover { background: #2980b9; }
 
-/* Alerts */
+
 .alert {
   padding: 12px;
   background: #2ecc71;
@@ -64,7 +64,7 @@ button:hover { background: #2980b9; }
   text-align: center;
 }
 
-/* List */
+
 ul { list-style: none; padding: 0; }
 li {
   display: flex;
@@ -78,14 +78,14 @@ li {
 }
 li .info { flex: 1; }
 
-/* Action Buttons */
+
 .action-buttons { display: flex; gap: 8px; }
 .action-buttons a { background: #f39c12; color: #fff; padding: 6px 12px; border-radius: 4px; transition: background 0.3s; }
 .action-buttons a:hover { background: #d78c10; }
 .action-buttons button { background: #e74c3c; color: #fff; padding: 6px 12px; border-radius: 4px; }
 .action-buttons button:hover { background: #c0392b; }
 
-/* Centered link */
+
 .center-link { text-align: center; margin-top: 20px; }
 .center-link a { color: #3498db; font-weight: 600; }
 .center-link a:hover { text-decoration: underline; }
